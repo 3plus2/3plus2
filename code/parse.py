@@ -127,7 +127,6 @@ def process_one_file(filepath):
     items = {}
     with open(filepath, encoding="utf-8") as f:
         for keyword, paragraphs in parse_text(f.read()):
-            print(keyword, "=>", [ascii(p) for p in paragraphs])
             items.update(PROCESSORS[keyword](paragraphs))
     return items
 
