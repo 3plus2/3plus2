@@ -16,7 +16,7 @@ def parse_text(text):
     Lines which start with a hash sign (#) are treated as comments
     and are ignored.
     """
-    keyword_matcher = re.compile("([A-Z]+)\:\s*(.*)")
+    keyword_matcher = re.compile(r"([A-Z]+)\:\s*(.*)", flags=re.UNICODE)
 
     #
     # The text consists of a number of blocks, introduced by a keyword
@@ -63,10 +63,7 @@ def process_gospel(texts):
     """Take a gospel quote prefixed by a chapter-and-verse reference
     """
     text = " ".join(texts)
-    #
-    #
-    #
-    citation, gospel = re.match("((?:Mt|Mk|Lk|Jn)\s[0-9:.-–]+)\s+(.*)", text).groups()
+    citation, gospel = re.match(r"((?:Mt|Mk|Lk|Jn)\s+[0-9:.\-–, ]+)\s+(.*)", text, flags=re.UNICODE).groups()
     yield "CITATION", citation
     yield "GOSPEL", gospel
 
@@ -137,11 +134,11 @@ def process_one_folder(dirpath):
         filename = os.path.basename(filepath)
         name, ext = os.path.splitext(filename)
         text[name] = dict(process_one_file(filepath))
+        break
     return text
 
-def main(dirpath="."):
-    return process_one_folder(dirpath)
-
 if __name__ == '__main__':
-    with codecs.open("parse.json", "wb", encoding="utf-8") as f:
-        json.dump(main(*sys.argv[1:]), f)
+    import pprint
+    with codecs.open("parse.txt", "wb", encoding="utf-8") as f:
+        pprint.pprint(process_one_folder(*sys.argv[1:]), f)
+        #~ json.dump(process_one_folder(*sys.argv[1:]), f)
