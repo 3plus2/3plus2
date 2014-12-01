@@ -1,7 +1,10 @@
 #!python3
 # -*- coding: utf-8 -*-
 import os, sys
+import codecs
+import collections
 import glob
+import json
 import re
 
 def parse_text(text):
@@ -43,12 +46,6 @@ def parse_text(text):
     if keyword and paragraphs:
         yield keyword, paragraphs
 
-def process_default(texts):
-    """For every item not specified, return a single string
-    containing the space-concatenated strings in the list
-    """
-    return " ".join(text)
-
 def process_title(texts):
     """Take a title with an optional subtitle in brackets and
     yield both as TITLE / SUBTITLE
@@ -65,21 +62,50 @@ def process_title(texts):
 def process_gospel(texts):
     """Take a gospel quote prefixed by a chapter-and-verse reference
     """
-    print("About to process gospel:", "\n".join(ascii(t) for t in texts))
     text = " ".join(texts)
     #
     #
     #
-    citation, gospel = re.match("((?:Mt|Mk|Lk|Jn)\s[0-9:.-–]+)\s+(.*)", text).groups()
+    citation, gospel = re.match("((?:Mt|Mk|Lk|Jn)\s[0-9:.-â€“]+)\s+(.*)", text).groups()
     yield "CITATION", citation
     yield "GOSPEL", gospel
 
-def process_comments(text):
+def process_paragraph(paragraph):
+    """Return a list of tuples (style, text) where the default
+    style is normal, and an underscore introduces an italic style
+    and an asterisk introduces a bold style.
+    """
+    q = collections.deque(paragraph)
+    state = "normal"
+    text = ""
+    while q:
+        c = q.popleft()
+        if c == "_":
+            if text:
+                yield state, text
+            state = "normal" if state == "italic" else "italic"
+            text = ""
+        elif c == "*":
+            if text:
+                yield state, text
+            state = "normal" if state == "bold" else "bold"
+            text = ""
+        else:
+            text += c
+    if text:
+        yield state, text
+
+def process_comments(texts):
     """The comments field is processed specially so that blocks which are
     tagged as italic or bold (surrounded by _ or *) can be broken out into
     separate blocks and tagged as such.
     """
-    pass
+    comments = []
+    for paragraph in texts:
+        comment = list(process_paragraph(paragraph))
+        if comment:
+            comments.append(comment)
+    yield "COMMENTS", comments
 
 #
 # Each processor takes a list of paragraphs and yields
@@ -101,7 +127,8 @@ def process_one_file(filepath):
     items = {}
     with open(filepath, encoding="utf-8") as f:
         for keyword, paragraphs in parse_text(f.read()):
-            items.update(PROCESSORS.get(keyword, process_default)(paragraphs))
+            print(keyword, "=>", [ascii(p) for p in paragraphs])
+            items.update(PROCESSORS[keyword](paragraphs))
     return items
 
 def process_one_folder(dirpath):
@@ -117,4 +144,5 @@ def main(dirpath="."):
     return process_one_folder(dirpath)
 
 if __name__ == '__main__':
-    print(main(*sys.argv[1:]))
+    with codecs.open("parse.json", "wb", encoding="utf-8") as f:
+        json.dump(main(*sys.argv[1:]), f)
