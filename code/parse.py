@@ -87,6 +87,11 @@ def process_paragraph(paragraph):
                 yield state, text
             state = "normal" if state == "bold" else "bold"
             text = ""
+        elif c == "@":
+            if text:
+                yield state, text
+            state = "normal" if state == "bold-italic" else "bold-italic"
+            text = ""
         else:
             text += c
     if text:
