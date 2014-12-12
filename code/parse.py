@@ -7,6 +7,30 @@ import glob
 import json
 import re
 
+class Stack(object):
+
+    def __init__(self):
+        self._stack = list()
+
+    def __bool__(self):
+        return bool(self._stack)
+
+    def __str__(self):
+        return "%s: %s" % (self.__class__.__name__, self._stack)
+
+    def __repr__(self):
+        return "%s: %r" % (self.__class__.__name__, self._stack)
+
+    def push(self, value):
+        self._stack.append(value)
+
+    def pop(self):
+        return self._stack.pop()
+
+    def peek(self):
+        return self._stack[-1]
+
+
 def parse_text(text):
     """Scan the input file one line at a time, looking for a keyword
     at the start of the line which will be one word in capital letters
@@ -67,8 +91,13 @@ def process_gospel(texts):
     yield "CITATION", citation
     yield "GOSPEL", gospel
 
+style_markers = {
+    "_" : "italic",
+    "*" : "bold",
+    "@" : "bold-italic"
+}
 def process_paragraph(paragraph):
-    """Return a list of tuples (style, text) where the default
+    """Generate tuples of (style, text) where the default
     style is normal, and an underscore introduces an italic style
     and an asterisk introduces a bold style.
     """
@@ -77,23 +106,16 @@ def process_paragraph(paragraph):
     text = ""
     while q:
         c = q.popleft()
-        if c == "_":
-            if text:
-                yield state, text
-            state = "normal" if state == "italic" else "italic"
-            text = ""
-        elif c == "*":
-            if text:
-                yield state, text
-            state = "normal" if state == "bold" else "bold"
-            text = ""
-        elif c == "@":
-            if text:
-                yield state, text
-            state = "normal" if state == "bold-italic" else "bold-italic"
-            text = ""
+        for marker, style in style_markers.items():
+            if c == marker:
+                if text:
+                    yield state, text
+                    text = ""
+                state = "normal" if state == style else style
+                break
         else:
             text += c
+
     if text:
         yield state, text
 
@@ -142,8 +164,14 @@ def process_one_folder(dirpath):
         break
     return text
 
+def process_one_thing(path):
+    if os.path.isdir(path):
+        return process_one_folder(path)
+    else:
+        return process_one_file(path)
+
 if __name__ == '__main__':
     import pprint
     with codecs.open("parse.txt", "wb", encoding="utf-8") as f:
-        pprint.pprint(process_one_folder(*sys.argv[1:]), f)
+        pprint.pprint(process_one_thing(*sys.argv[1:]), f)
         #~ json.dump(process_one_folder(*sys.argv[1:]), f)
