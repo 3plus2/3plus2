@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="10.1">
+	<Story Self="u1c72" AppliedTOCStyle="n" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/normal">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Estilo de carácter 1">
+				<Content>Don’t worry. To do your mental prayer is very easy. Wherever you are you can speak with Jesus, but try to find a calm place where your siblings do not distract you: for example your room. The Introductory prayer serves to tune in to Jesus; say it slowly, understanding what you are asking. Then read the holy gospel of the day and ask yourself what Jesus wants to say to you in this passage of his life. Jesus is going to tell you great things in the interior of your soul. Let him speak to you.  At the end of your mental prayer you can say the Closing prayer, giving thanks to Our Lord for the good resolutions that inspired you. It is easy, isn’t it?</Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>
