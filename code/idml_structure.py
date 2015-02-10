@@ -9,6 +9,80 @@ TEXT_SUBDIRS = ["/Lent February/", "/Lent March/", "/Lent April/"]
 TEXTS_NUM = 46
 TEXT_SUBDIRS_COUNT = [11,31,4]
 
+
+def setContent(inCitFileName, outCitFileName, content):
+	inCitFile  = open(inCitFileName, 'r')
+	outCitFile = open(outCitFileName, 'w')
+
+	inText = inCitFile.read()
+
+	idx1 = inText.find("codigo")
+
+	if idx1 >= 0:
+		firstText = inText[0:idx1]
+		secondText = inText[idx1+10:]
+		inText = firstText+content+secondText
+
+	outCitFile.write(inText)
+
+	inCitFile.close()
+	outCitFile.close()
+
+def setMainContent(inCitFileName, outCitFileName, gospelText, commentsText):
+	inCitFile  = open(inCitFileName, 'r')
+	outCitFile = open(outCitFileName, 'w')
+
+	#read the origin
+	iniBlock = 6
+	midBlock = 5
+	finBlock = 3
+	inTextIni = ""
+	for f in range(iniBlock) :
+		inTextIni = inTextIni + inCitFile.readline()
+
+	for f in range(midBlock) :
+		inCitFile.readline()
+
+	inTextFin = ""
+	for f in range(finBlock) :
+		inTextFin = inTextFin + inCitFile.readline()
+
+	content = ""
+
+	gospelContent = paragraphStyleBlock("cita", characterStyleBlock("contenido_cita", gospelText))#+"\t\t\t\t</br>\n")
+	content = content + gospelContent
+
+	for parr in range(len(commentsText)) :
+		textParrafo = ""
+		elementParrafo = commentsText[parr]
+		for block in range(len(elementParrafo)) :
+			elementBlock = elementParrafo[block]
+			textParrafo = textParrafo + characterStyleBlock(elementBlock[0], elementBlock[1])
+
+		content = content + paragraphStyleBlock("normal",textParrafo)
+
+
+	finalText = inTextIni+content+inTextFin
+
+	outCitFile.write(finalText)
+
+	inCitFile.close()
+	outCitFile.close()
+
+
+
+def characterStyleBlock(style, content):
+	ini = """\t\t\t\t<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/{0}">
+			 \t\t<Content>""".format(style)
+	fin = """</Content>
+			 \t</CharacterStyleRange>\n"""
+	return ini+content+fin
+
+def paragraphStyleBlock(style, content):
+	ini = """\t\t\t<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/{0}">\n""".format(style)
+	fin = "\t\t\t</ParagraphStyleRange>\n"
+	return ini+content+fin
+
 textContents = ["" for i in range(TEXTS_NUM)]
 counter = 0
 for subdir in TEXT_SUBDIRS :
@@ -22,16 +96,18 @@ for subdir in TEXT_SUBDIRS :
 
 IDMLFOLDER_FOLDER = "/Volumes/Datos002/WESTPARK/3+2/leaflets_design/idml_decomposition/test_decomp/"
 STORIES_FOLDER = "Stories"
+NEW_STORIES_FOLDER = "newStories"
 
 mypath = IDMLFOLDER_FOLDER+STORIES_FOLDER+"/"
+outPath = IDMLFOLDER_FOLDER+NEW_STORIES_FOLDER+"/"
 allfiles = [ f for f in listdir(mypath) if isfile(join(mypath,f)) ]
 
 # 1. Read all the stories files and create the relation table
 numOfPages = 70
 tabla = [{} for i in range(numOfPages)]
 used = [False for i in range(numOfPages)]
-minPage = 9999
-maxPage = -1
+minPage = int(9999)
+maxPage = int(-1)
 for f in range(len(allfiles)) :
 	storyFile = open(mypath+allfiles[f], 'r')
 	text = storyFile.read()
@@ -45,9 +121,9 @@ for f in range(len(allfiles)) :
 	tabla[value][bloque] = allfiles[f]
 	used[value] = True
 	if value > maxPage : 
-		maxPage = pagina
+		maxPage = int(pagina)
 	if value < minPage : 
-		minPage = pagina
+		minPage = int(pagina)
 	
 	#print allfiles[f] + "- pagina: " + pagina + " - bloque: " + bloque
 
@@ -55,10 +131,56 @@ print "minPage " + str(minPage)
 print "maxPage " + str(maxPage)
 print "textContents " + str(len(textContents))
 
+comments = {}
+gospel = {}
+citation = {}
+
+textId = int(0)
 for text in textContents :
 	extFile = open(text, 'r')
 	items = {}
 	for keyword, paragraphs in p.parse_text(extFile.read()) :
 		items.update(p.PROCESSORS[keyword](paragraphs))
-		print items
+
+	#print text
+	comments[textId] = items['COMMENTS']
+	gospel[textId]   = items['GOSPEL']
+	citation[textId] = items['CITATION']
+	textId = textId+1
+
+
+maxPage = int(maxPage)
+pageId = 0
+for i in range(len(comments)) :
+	if i > minPage :
+		#citation
+		inCitFileName = mypath+tabla[i]['C']
+		outCitFileName = outPath+tabla[i]['C']
+		setContent(inCitFileName, outCitFileName, citation[pageId])
+		
+		#day
+		#inCitFileName = mypath+tabla[i]['D']
+		#outCitFileName = outPath+tabla[i]['D']
+		#setContent(inCitFileName, outCitFileName, day[pageId])
+
+		#saint
+		#inCitFileName = mypath+tabla[i]['S']
+		#outCitFileName = outPath+tabla[i]['S']
+		#setContent(inCitFileName, outCitFileName, saint[pageId])
+
+		#gospel+comments
+		if pageId == 0:
+			print len(comments[pageId])
+			print comments[pageId][0]
+			print len(comments[pageId][0])
+			print len(comments[pageId][0][0])
+
+
+		inCitFileName = mypath+tabla[i]['T']
+		outCitFileName = outPath+tabla[i]['T']
+		setMainContent(inCitFileName, outCitFileName, gospel[pageId], comments[pageId])
+		pageId = pageId+1
+
+
+
 
