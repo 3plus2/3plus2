@@ -9,6 +9,14 @@ TEXT_SUBDIRS = ["/Lent February/", "/Lent March/", "/Lent April/"]
 TEXTS_NUM = 46
 TEXT_SUBDIRS_COUNT = [11,31,4]
 
+IDMLFOLDER_FOLDER = "/Volumes/Datos002/WESTPARK/3+2/leaflets_design/idml_decomposition/masPruebas/"
+NEWIDMLFOLDER_FOLDER = "/Volumes/Datos002/WESTPARK/3+2/leaflets_design/idml_decomposition/lent_leaflet/"
+STORIES_FOLDER = "Stories"
+NEW_STORIES_FOLDER = "newStories"
+
+mypath = IDMLFOLDER_FOLDER+STORIES_FOLDER+"/"
+outPath = NEWIDMLFOLDER_FOLDER+STORIES_FOLDER+"/"
+
 
 def setContent(inCitFileName, outCitFileName, content):
 	inCitFile  = open(inCitFileName, 'r')
@@ -49,7 +57,7 @@ def setMainContent(inCitFileName, outCitFileName, gospelText, commentsText):
 
 	content = ""
 
-	gospelContent = paragraphStyleBlock("cita", characterStyleBlock("contenido_cita", gospelText))#+"\t\t\t\t</br>\n")
+	gospelContent = paragraphStyleBlock("cita", characterStyleBlock("contenido_cita", gospelText, True))#+"\t\t\t\t</br>\n")
 	content = content + gospelContent
 
 	for parr in range(len(commentsText)) :
@@ -69,13 +77,12 @@ def setMainContent(inCitFileName, outCitFileName, gospelText, commentsText):
 	inCitFile.close()
 	outCitFile.close()
 
-
-
-def characterStyleBlock(style, content):
+def characterStyleBlock(style, content, withspace = False):
 	ini = """\t\t\t\t<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/{0}">
 			 \t\t<Content>""".format(style)
-	fin = """</Content>
-			 \t</CharacterStyleRange>\n"""
+	fin = """</Content>\n"""
+	if withspace : fin = fin + "<br/>"
+	fin = fin + "\t</CharacterStyleRange>\n"
 	return ini+content+fin
 
 def paragraphStyleBlock(style, content):
@@ -94,12 +101,6 @@ for subdir in TEXT_SUBDIRS :
 		textContents[counter] = Texts_dir+ff
 		counter = counter+1
 
-IDMLFOLDER_FOLDER = "/Volumes/Datos002/WESTPARK/3+2/leaflets_design/idml_decomposition/test_decomp/"
-STORIES_FOLDER = "Stories"
-NEW_STORIES_FOLDER = "newStories"
-
-mypath = IDMLFOLDER_FOLDER+STORIES_FOLDER+"/"
-outPath = IDMLFOLDER_FOLDER+NEW_STORIES_FOLDER+"/"
 allfiles = [ f for f in listdir(mypath) if isfile(join(mypath,f)) ]
 
 # 1. Read all the stories files and create the relation table
@@ -127,13 +128,15 @@ for f in range(len(allfiles)) :
 	
 	#print allfiles[f] + "- pagina: " + pagina + " - bloque: " + bloque
 
-print "minPage " + str(minPage)
-print "maxPage " + str(maxPage)
-print "textContents " + str(len(textContents))
+#print "minPage " + str(minPage)
+#print "maxPage " + str(maxPage)
+#print "textContents " + str(len(textContents))
 
 comments = {}
 gospel = {}
 citation = {}
+days = {}
+saints = {}
 
 textId = int(0)
 for text in textContents :
@@ -141,46 +144,50 @@ for text in textContents :
 	items = {}
 	for keyword, paragraphs in p.parse_text(extFile.read()) :
 		items.update(p.PROCESSORS[keyword](paragraphs))
+	extFile.close()
+
+	extFile = open(text, 'r')
+	day = extFile.readline()
+	saint = extFile.readline()
+	items['DAY'] = day[:len(day)-1]
+	items['SAINT'] = saint[:len(saint)-1]
+	extFile.close()
 
 	#print text
 	comments[textId] = items['COMMENTS']
 	gospel[textId]   = items['GOSPEL']
 	citation[textId] = items['CITATION']
+	days[textId] = items['DAY']
+	saints[textId] = items['SAINT']
 	textId = textId+1
 
 
 maxPage = int(maxPage)
 pageId = 0
 for i in range(len(comments)) :
-	if i > minPage :
+	if i >= minPage :
 		#citation
 		inCitFileName = mypath+tabla[i]['C']
 		outCitFileName = outPath+tabla[i]['C']
 		setContent(inCitFileName, outCitFileName, citation[pageId])
 		
 		#day
-		#inCitFileName = mypath+tabla[i]['D']
-		#outCitFileName = outPath+tabla[i]['D']
-		#setContent(inCitFileName, outCitFileName, day[pageId])
+		inCitFileName = mypath+tabla[i]['D']
+		outCitFileName = outPath+tabla[i]['D']
+		setContent(inCitFileName, outCitFileName, days[pageId])
 
 		#saint
-		#inCitFileName = mypath+tabla[i]['S']
-		#outCitFileName = outPath+tabla[i]['S']
-		#setContent(inCitFileName, outCitFileName, saint[pageId])
+		inCitFileName = mypath+tabla[i]['S']
+		outCitFileName = outPath+tabla[i]['S']
+		setContent(inCitFileName, outCitFileName, saints[pageId])
 
 		#gospel+comments
-		if pageId == 0:
-			print len(comments[pageId])
-			print comments[pageId][0]
-			print len(comments[pageId][0])
-			print len(comments[pageId][0][0])
-
-
 		inCitFileName = mypath+tabla[i]['T']
 		outCitFileName = outPath+tabla[i]['T']
 		setMainContent(inCitFileName, outCitFileName, gospel[pageId], comments[pageId])
 		pageId = pageId+1
 
+print "Builded " + str(pageId) +" pages!"
 
 
 
