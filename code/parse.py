@@ -149,7 +149,7 @@ PROCESSORS = {
 
 def process_one_file(filepath):
     items = {}
-    with open(filepath, encoding="utf-8") as f:
+    with codecs.open(filepath, encoding="utf-8") as f:
         for keyword, paragraphs in parse_text(f.read()):
             items.update(PROCESSORS[keyword](paragraphs))
     return items

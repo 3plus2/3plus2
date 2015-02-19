@@ -1,0 +1,1481 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:BackingStory xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="10.1">
+	<XmlStory Self="ua9" AppliedTOCStyle="n" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+			<XMLElement Self="di2" MarkupTag="XMLTag/Root">
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+					<XMLElement Self="di2i3" MarkupTag="XMLTag/subtitle_izq" XMLContent="u1994" />
+					<XMLElement Self="di2i4" MarkupTag="XMLTag/day_izq" XMLContent="u19ab" />
+					<XMLElement Self="di2i5" MarkupTag="XMLTag/cita_izq" XMLContent="u20c7" />
+					<XMLElement Self="di2i6" MarkupTag="XMLTag/cita_dch" XMLContent="u20ab" />
+					<XMLElement Self="di2i7" MarkupTag="XMLTag/subtitle_dch" XMLContent="u2077" />
+					<XMLElement Self="di2i8" MarkupTag="XMLTag/day_dch" XMLContent="u208f" />
+					<XMLElement Self="di2i9" MarkupTag="XMLTag/contenido_izq" XMLContent="u19c2" />
+					<XMLElement Self="di2ia" MarkupTag="XMLTag/contenido_dch" XMLContent="u1a26" />
+				</CharacterStyleRange>
+				<XMLElement Self="di2ib" MarkupTag="XMLTag/subtitle_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>Something, just to fill the space</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ic" MarkupTag="XMLTag/day_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>February 15th</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2id" MarkupTag="XMLTag/contenido_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>That is the second spread left</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ie" MarkupTag="XMLTag/contenido_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>That is the second spread right</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2if" MarkupTag="XMLTag/subtitle_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>Something, just to fill the space</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i10" MarkupTag="XMLTag/day_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>February 15th</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i11" MarkupTag="XMLTag/cita_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>     Mk 8:11–13</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i12" MarkupTag="XMLTag/cita_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>Mk 1:40–45</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+					<XMLElement Self="di2i1b" MarkupTag="XMLTag/subtitle_izq" XMLContent="u2496" />
+					<XMLElement Self="di2i1c" MarkupTag="XMLTag/day_izq" XMLContent="u24ad" />
+					<XMLElement Self="di2i1d" MarkupTag="XMLTag/contenido_izq" XMLContent="u24c4" />
+					<XMLElement Self="di2i1e" MarkupTag="XMLTag/contenido_dch" XMLContent="u24db" />
+					<XMLElement Self="di2i1f" MarkupTag="XMLTag/subtitle_dch" XMLContent="u24f2" />
+					<XMLElement Self="di2i20" MarkupTag="XMLTag/day_dch" XMLContent="u2509" />
+					<XMLElement Self="di2i21" MarkupTag="XMLTag/cita_dch" XMLContent="u2520" />
+					<XMLElement Self="di2i22" MarkupTag="XMLTag/cita_izq" XMLContent="u2538" />
+					<XMLElement Self="di2i23" MarkupTag="XMLTag/subtitle_izq" XMLContent="u2576" />
+					<XMLElement Self="di2i24" MarkupTag="XMLTag/day_izq" XMLContent="u258e" />
+					<XMLElement Self="di2i25" MarkupTag="XMLTag/contenido_izq" XMLContent="u25a5" />
+					<XMLElement Self="di2i26" MarkupTag="XMLTag/contenido_dch" XMLContent="u25bc" />
+					<XMLElement Self="di2i27" MarkupTag="XMLTag/subtitle_dch" XMLContent="u25d3" />
+					<XMLElement Self="di2i28" MarkupTag="XMLTag/day_dch" XMLContent="u25eb" />
+					<XMLElement Self="di2i29" MarkupTag="XMLTag/cita_dch" XMLContent="u2602" />
+					<XMLElement Self="di2i2a" MarkupTag="XMLTag/cita_izq" XMLContent="u2619" />
+					<XMLElement Self="di2i2b" MarkupTag="XMLTag/subtitle_izq" XMLContent="u2646" />
+					<XMLElement Self="di2i2c" MarkupTag="XMLTag/day_izq" XMLContent="u265d" />
+					<XMLElement Self="di2i2d" MarkupTag="XMLTag/contenido_izq" XMLContent="u2674" />
+					<XMLElement Self="di2i2e" MarkupTag="XMLTag/cita_izq" XMLContent="u268b" />
+					<XMLElement Self="di2i2f" MarkupTag="XMLTag/contenido_dch" XMLContent="u26a2" />
+					<XMLElement Self="di2i30" MarkupTag="XMLTag/subtitle_dch" XMLContent="u26b9" />
+					<XMLElement Self="di2i31" MarkupTag="XMLTag/day_dch" XMLContent="u26d0" />
+					<XMLElement Self="di2i32" MarkupTag="XMLTag/cita_dch" XMLContent="u26e7" />
+					<XMLElement Self="di2i33" MarkupTag="XMLTag/subtitle_izq" XMLContent="u2752" />
+					<XMLElement Self="di2i34" MarkupTag="XMLTag/day_izq" XMLContent="u2769" />
+					<XMLElement Self="di2i35" MarkupTag="XMLTag/contenido_izq" XMLContent="u2780" />
+					<XMLElement Self="di2i36" MarkupTag="XMLTag/contenido_dch" XMLContent="u2797" />
+					<XMLElement Self="di2i37" MarkupTag="XMLTag/subtitle_dch" XMLContent="u27ae" />
+					<XMLElement Self="di2i38" MarkupTag="XMLTag/day_dch" XMLContent="u27c5" />
+					<XMLElement Self="di2i39" MarkupTag="XMLTag/cita_dch" XMLContent="u27dc" />
+					<XMLElement Self="di2i3a" MarkupTag="XMLTag/cita_izq" XMLContent="u27f3" />
+					<XMLElement Self="di2i3b" MarkupTag="XMLTag/subtitle_izq" XMLContent="u2820" />
+					<XMLElement Self="di2i3c" MarkupTag="XMLTag/day_izq" XMLContent="u2837" />
+					<XMLElement Self="di2i3d" MarkupTag="XMLTag/contenido_izq" XMLContent="u284e" />
+					<XMLElement Self="di2i3e" MarkupTag="XMLTag/cita_izq" XMLContent="u2865" />
+					<XMLElement Self="di2i3f" MarkupTag="XMLTag/contenido_dch" XMLContent="u287d" />
+					<XMLElement Self="di2i40" MarkupTag="XMLTag/subtitle_dch" XMLContent="u2894" />
+					<XMLElement Self="di2i41" MarkupTag="XMLTag/day_dch" XMLContent="u28ab" />
+					<XMLElement Self="di2i42" MarkupTag="XMLTag/cita_dch" XMLContent="u28c2" />
+					<XMLElement Self="di2i43" MarkupTag="XMLTag/subtitle_izq" XMLContent="u28ef" />
+					<XMLElement Self="di2i44" MarkupTag="XMLTag/day_izq" XMLContent="u2906" />
+					<XMLElement Self="di2i45" MarkupTag="XMLTag/contenido_izq" XMLContent="u291e" />
+					<XMLElement Self="di2i46" MarkupTag="XMLTag/cita_izq" XMLContent="u2936" />
+					<XMLElement Self="di2i47" MarkupTag="XMLTag/contenido_dch" XMLContent="u294d" />
+					<XMLElement Self="di2i48" MarkupTag="XMLTag/subtitle_dch" XMLContent="u2964" />
+					<XMLElement Self="di2i49" MarkupTag="XMLTag/day_dch" XMLContent="u297b" />
+					<XMLElement Self="di2i4a" MarkupTag="XMLTag/cita_dch" XMLContent="u2992" />
+				</CharacterStyleRange>
+				<XMLElement Self="di2i4b" MarkupTag="XMLTag/contenido_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo007T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i4c" MarkupTag="XMLTag/subtitle_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo007S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i4d" MarkupTag="XMLTag/day_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo007D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i4e" MarkupTag="XMLTag/cita_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo007C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i4f" MarkupTag="XMLTag/subtitle_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo006S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i50" MarkupTag="XMLTag/day_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo006D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i51" MarkupTag="XMLTag/contenido_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo006T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i52" MarkupTag="XMLTag/cita_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo006C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i53" MarkupTag="XMLTag/subtitle_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo006S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i54" MarkupTag="XMLTag/day_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo006D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i55" MarkupTag="XMLTag/contenido_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo006T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i56" MarkupTag="XMLTag/contenido_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo007T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i57" MarkupTag="XMLTag/subtitle_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo007S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i58" MarkupTag="XMLTag/day_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo007D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i59" MarkupTag="XMLTag/cita_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo007C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i5a" MarkupTag="XMLTag/cita_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo006C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i5b" MarkupTag="XMLTag/subtitle_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo006S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i5c" MarkupTag="XMLTag/day_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo006D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i5d" MarkupTag="XMLTag/contenido_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo006T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i5e" MarkupTag="XMLTag/cita_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo006C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i5f" MarkupTag="XMLTag/contenido_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo007T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i60" MarkupTag="XMLTag/subtitle_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo007S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i61" MarkupTag="XMLTag/day_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo007D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i62" MarkupTag="XMLTag/cita_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo007C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i63" MarkupTag="XMLTag/subtitle_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo006S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i64" MarkupTag="XMLTag/day_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo006D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i65" MarkupTag="XMLTag/contenido_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo006T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i66" MarkupTag="XMLTag/cita_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo006C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i67" MarkupTag="XMLTag/contenido_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo007T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i68" MarkupTag="XMLTag/subtitle_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo007S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i69" MarkupTag="XMLTag/day_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo007D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i6a" MarkupTag="XMLTag/cita_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo007C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i6b" MarkupTag="XMLTag/contenido_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo007T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i6c" MarkupTag="XMLTag/subtitle_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo007S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i6d" MarkupTag="XMLTag/day_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo007D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i6e" MarkupTag="XMLTag/cita_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo007C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i6f" MarkupTag="XMLTag/subtitle_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo006S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i70" MarkupTag="XMLTag/day_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo006D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i71" MarkupTag="XMLTag/contenido_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo006T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i72" MarkupTag="XMLTag/cita_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo006C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i73" MarkupTag="XMLTag/subtitle_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo006S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i74" MarkupTag="XMLTag/day_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo006D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i75" MarkupTag="XMLTag/contenido_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo006T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i76" MarkupTag="XMLTag/cita_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo006C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i77" MarkupTag="XMLTag/contenido_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo007T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i78" MarkupTag="XMLTag/subtitle_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo007S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i79" MarkupTag="XMLTag/day_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo007D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i7a" MarkupTag="XMLTag/cita_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo007C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i7b" MarkupTag="XMLTag/contenido_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo007T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i7c" MarkupTag="XMLTag/subtitle_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo007S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i7d" MarkupTag="XMLTag/day_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo007D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i7e" MarkupTag="XMLTag/cita_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo007C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i7f" MarkupTag="XMLTag/subtitle_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo006S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i80" MarkupTag="XMLTag/day_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo006D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i81" MarkupTag="XMLTag/contenido_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo006T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i82" MarkupTag="XMLTag/cita_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo006C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i83" MarkupTag="XMLTag/contenido_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo007T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i84" MarkupTag="XMLTag/subtitle_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo007S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i85" MarkupTag="XMLTag/day_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo007D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i86" MarkupTag="XMLTag/cita_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo007C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i87" MarkupTag="XMLTag/subtitle_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo006S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i88" MarkupTag="XMLTag/day_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo006D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i89" MarkupTag="XMLTag/contenido_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo006T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i8a" MarkupTag="XMLTag/cita_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo006C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i8b" MarkupTag="XMLTag/contenido_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo007T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i8c" MarkupTag="XMLTag/subtitle_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo007S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i8d" MarkupTag="XMLTag/day_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo007D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i8e" MarkupTag="XMLTag/cita_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo007C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i8f" MarkupTag="XMLTag/subtitle_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo006S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i90" MarkupTag="XMLTag/day_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo006D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i91" MarkupTag="XMLTag/contenido_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo006T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i92" MarkupTag="XMLTag/cita_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo006C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i93" MarkupTag="XMLTag/subtitle_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo006S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i94" MarkupTag="XMLTag/day_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo006D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i95" MarkupTag="XMLTag/contenido_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo006T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i96" MarkupTag="XMLTag/contenido_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo007T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i97" MarkupTag="XMLTag/subtitle_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo007S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i98" MarkupTag="XMLTag/day_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo007D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i99" MarkupTag="XMLTag/cita_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo007C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i9a" MarkupTag="XMLTag/cita_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo006C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i9b" MarkupTag="XMLTag/subtitle_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo006S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i9c" MarkupTag="XMLTag/day_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo006D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i9d" MarkupTag="XMLTag/contenido_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo006T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i9e" MarkupTag="XMLTag/cita_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo006C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i9f" MarkupTag="XMLTag/contenido_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo007T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ia0" MarkupTag="XMLTag/subtitle_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo007S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ia1" MarkupTag="XMLTag/day_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo007D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ia2" MarkupTag="XMLTag/cita_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo007C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ia3" MarkupTag="XMLTag/subtitle_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo006S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ia4" MarkupTag="XMLTag/day_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo006D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ia5" MarkupTag="XMLTag/contenido_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo006T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ia6" MarkupTag="XMLTag/cita_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo006C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ia7" MarkupTag="XMLTag/contenido_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo007T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ia8" MarkupTag="XMLTag/subtitle_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo007S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ia9" MarkupTag="XMLTag/day_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo007D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2iaa" MarkupTag="XMLTag/cita_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo007C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2iab" MarkupTag="XMLTag/contenido_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo007T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2iac" MarkupTag="XMLTag/subtitle_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo007S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2iad" MarkupTag="XMLTag/day_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo007D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2iae" MarkupTag="XMLTag/cita_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo007C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2iaf" MarkupTag="XMLTag/subtitle_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo006S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ib0" MarkupTag="XMLTag/day_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo006D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ib1" MarkupTag="XMLTag/contenido_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo006T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ib2" MarkupTag="XMLTag/cita_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo006C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ib3" MarkupTag="XMLTag/subtitle_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo006S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ib4" MarkupTag="XMLTag/day_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo006D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ib5" MarkupTag="XMLTag/contenido_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo006T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ib6" MarkupTag="XMLTag/cita_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo006C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ib7" MarkupTag="XMLTag/contenido_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo007T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ib8" MarkupTag="XMLTag/subtitle_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo007S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ib9" MarkupTag="XMLTag/day_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo007D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2iba" MarkupTag="XMLTag/cita_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo007C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ibb" MarkupTag="XMLTag/contenido_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo007T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ibc" MarkupTag="XMLTag/subtitle_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo007S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ibd" MarkupTag="XMLTag/day_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo007D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ibe" MarkupTag="XMLTag/cita_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo007C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ibf" MarkupTag="XMLTag/subtitle_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo006S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ic0" MarkupTag="XMLTag/day_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo006D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ic1" MarkupTag="XMLTag/contenido_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo006T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ic2" MarkupTag="XMLTag/cita_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo006C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ic3" MarkupTag="XMLTag/contenido_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo007T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ic4" MarkupTag="XMLTag/subtitle_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo007S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ic5" MarkupTag="XMLTag/day_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo007D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ic6" MarkupTag="XMLTag/cita_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo007C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ic7" MarkupTag="XMLTag/subtitle_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo006S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ic8" MarkupTag="XMLTag/day_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo006D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ic9" MarkupTag="XMLTag/contenido_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo006T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ica" MarkupTag="XMLTag/cita_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo006C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2icb" MarkupTag="XMLTag/contenido_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo007T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2icc" MarkupTag="XMLTag/subtitle_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo007S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2icd" MarkupTag="XMLTag/day_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo007D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ice" MarkupTag="XMLTag/cita_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo007C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2icf" MarkupTag="XMLTag/subtitle_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo006S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2id0" MarkupTag="XMLTag/day_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo006D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2id1" MarkupTag="XMLTag/contenido_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo006T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2id2" MarkupTag="XMLTag/cita_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo006C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2id3" MarkupTag="XMLTag/subtitle_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo006S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2id4" MarkupTag="XMLTag/day_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo006D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2id5" MarkupTag="XMLTag/contenido_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo006T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2id6" MarkupTag="XMLTag/cita_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo006C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2id7" MarkupTag="XMLTag/contenido_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo007T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2id8" MarkupTag="XMLTag/subtitle_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo007S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2id9" MarkupTag="XMLTag/day_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo007D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ida" MarkupTag="XMLTag/cita_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo007C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2idb" MarkupTag="XMLTag/contenido_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo007T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2idc" MarkupTag="XMLTag/subtitle_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo007S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2idd" MarkupTag="XMLTag/day_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo007D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ide" MarkupTag="XMLTag/cita_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo007C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2idf" MarkupTag="XMLTag/subtitle_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo006S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ie0" MarkupTag="XMLTag/day_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo006D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ie1" MarkupTag="XMLTag/contenido_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo006T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ie2" MarkupTag="XMLTag/cita_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo006C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ie3" MarkupTag="XMLTag/contenido_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo007T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ie4" MarkupTag="XMLTag/subtitle_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo007S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ie5" MarkupTag="XMLTag/day_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo007D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ie6" MarkupTag="XMLTag/cita_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo007C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ie7" MarkupTag="XMLTag/subtitle_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo006S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ie8" MarkupTag="XMLTag/day_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo006D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ie9" MarkupTag="XMLTag/contenido_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo006T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2iea" MarkupTag="XMLTag/cita_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo006C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ieb" MarkupTag="XMLTag/contenido_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo007T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2iec" MarkupTag="XMLTag/subtitle_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo007S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ied" MarkupTag="XMLTag/day_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo007D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2iee" MarkupTag="XMLTag/cita_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo007C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ief" MarkupTag="XMLTag/subtitle_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo006S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2if0" MarkupTag="XMLTag/day_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo006D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2if1" MarkupTag="XMLTag/contenido_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo006T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2if2" MarkupTag="XMLTag/cita_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo006C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2if3" MarkupTag="XMLTag/contenido_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo007T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2if4" MarkupTag="XMLTag/subtitle_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo007S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2if5" MarkupTag="XMLTag/day_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo007D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2if6" MarkupTag="XMLTag/cita_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo007C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2if7" MarkupTag="XMLTag/subtitle_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo006S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2if8" MarkupTag="XMLTag/day_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo006D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2if9" MarkupTag="XMLTag/contenido_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo006T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ifa" MarkupTag="XMLTag/cita_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo006C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ifb" MarkupTag="XMLTag/contenido_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo007T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ifc" MarkupTag="XMLTag/subtitle_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo007S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ifd" MarkupTag="XMLTag/day_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo007D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2ife" MarkupTag="XMLTag/cita_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo007C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2iff" MarkupTag="XMLTag/subtitle_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo006S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i100" MarkupTag="XMLTag/day_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo006D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i101" MarkupTag="XMLTag/contenido_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo006T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i102" MarkupTag="XMLTag/cita_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo006C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i103" MarkupTag="XMLTag/contenido_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo007T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i104" MarkupTag="XMLTag/subtitle_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo007S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i105" MarkupTag="XMLTag/day_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo007D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i106" MarkupTag="XMLTag/cita_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo007C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i107" MarkupTag="XMLTag/subtitle_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo006S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i108" MarkupTag="XMLTag/day_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo006D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i109" MarkupTag="XMLTag/contenido_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo006T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i10a" MarkupTag="XMLTag/cita_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo006C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i10b" MarkupTag="XMLTag/contenido_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo007T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i10c" MarkupTag="XMLTag/subtitle_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo007S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i10d" MarkupTag="XMLTag/day_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo007D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i10e" MarkupTag="XMLTag/cita_dch">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo007C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i10f" MarkupTag="XMLTag/subtitle_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/subtitulo">
+						<Content>codigo006S</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i110" MarkupTag="XMLTag/day_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/dia">
+						<Content>codigo006D</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i111" MarkupTag="XMLTag/contenido_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+						<Content>codigo006T</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+				<XMLElement Self="di2i112" MarkupTag="XMLTag/cita_izq">
+					<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/cita">
+						<Content>codigo006C</Content>
+					</CharacterStyleRange>
+				</XMLElement>
+				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+					<XMLElement Self="di2i1db" MarkupTag="XMLTag/subtitle_izq" XMLContent="u42fd" />
+					<XMLElement Self="di2i1dc" MarkupTag="XMLTag/day_izq" XMLContent="u4314" />
+					<XMLElement Self="di2i1dd" MarkupTag="XMLTag/contenido_izq" XMLContent="u432b" />
+					<XMLElement Self="di2i1de" MarkupTag="XMLTag/cita_izq" XMLContent="u4342" />
+					<XMLElement Self="di2i1df" MarkupTag="XMLTag/contenido_dch" XMLContent="u4359" />
+					<XMLElement Self="di2i1e0" MarkupTag="XMLTag/subtitle_dch" XMLContent="u4371" />
+					<XMLElement Self="di2i1e1" MarkupTag="XMLTag/day_dch" XMLContent="u4388" />
+					<XMLElement Self="di2i1e2" MarkupTag="XMLTag/cita_dch" XMLContent="u439f" />
+					<XMLElement Self="di2i1e3" MarkupTag="XMLTag/contenido_dch" XMLContent="u43ce" />
+					<XMLElement Self="di2i1e4" MarkupTag="XMLTag/subtitle_dch" XMLContent="u43e5" />
+					<XMLElement Self="di2i1e5" MarkupTag="XMLTag/day_dch" XMLContent="u43fc" />
+					<XMLElement Self="di2i1e6" MarkupTag="XMLTag/cita_dch" XMLContent="u4413" />
+					<XMLElement Self="di2i1e7" MarkupTag="XMLTag/subtitle_izq" XMLContent="u442a" />
+					<XMLElement Self="di2i1e8" MarkupTag="XMLTag/day_izq" XMLContent="u4441" />
+					<XMLElement Self="di2i1e9" MarkupTag="XMLTag/contenido_izq" XMLContent="u4458" />
+					<XMLElement Self="di2i1ea" MarkupTag="XMLTag/cita_izq" XMLContent="u446f" />
+					<XMLElement Self="di2i1eb" MarkupTag="XMLTag/subtitle_izq" XMLContent="u449b" />
+					<XMLElement Self="di2i1ec" MarkupTag="XMLTag/day_izq" XMLContent="u44b3" />
+					<XMLElement Self="di2i1ed" MarkupTag="XMLTag/contenido_izq" XMLContent="u44ca" />
+					<XMLElement Self="di2i1ee" MarkupTag="XMLTag/cita_izq" XMLContent="u44e1" />
+					<XMLElement Self="di2i1ef" MarkupTag="XMLTag/contenido_dch" XMLContent="u44f8" />
+					<XMLElement Self="di2i1f0" MarkupTag="XMLTag/subtitle_dch" XMLContent="u450f" />
+					<XMLElement Self="di2i1f1" MarkupTag="XMLTag/day_dch" XMLContent="u4526" />
+					<XMLElement Self="di2i1f2" MarkupTag="XMLTag/cita_dch" XMLContent="u453d" />
+					<XMLElement Self="di2i1f3" MarkupTag="XMLTag/contenido_dch" XMLContent="u456d" />
+					<XMLElement Self="di2i1f4" MarkupTag="XMLTag/subtitle_dch" XMLContent="u4585" />
+					<XMLElement Self="di2i1f5" MarkupTag="XMLTag/day_dch" XMLContent="u459c" />
+					<XMLElement Self="di2i1f6" MarkupTag="XMLTag/cita_dch" XMLContent="u45b3" />
+					<XMLElement Self="di2i1f7" MarkupTag="XMLTag/subtitle_izq" XMLContent="u45ca" />
+					<XMLElement Self="di2i1f8" MarkupTag="XMLTag/day_izq" XMLContent="u45e1" />
+					<XMLElement Self="di2i1f9" MarkupTag="XMLTag/contenido_izq" XMLContent="u45f8" />
+					<XMLElement Self="di2i1fa" MarkupTag="XMLTag/cita_izq" XMLContent="u460f" />
+					<XMLElement Self="di2i1fb" MarkupTag="XMLTag/contenido_dch" XMLContent="u463b" />
+					<XMLElement Self="di2i1fc" MarkupTag="XMLTag/subtitle_dch" XMLContent="u4652" />
+					<XMLElement Self="di2i1fd" MarkupTag="XMLTag/day_dch" XMLContent="u4669" />
+					<XMLElement Self="di2i1fe" MarkupTag="XMLTag/cita_dch" XMLContent="u4682" />
+					<XMLElement Self="di2i1ff" MarkupTag="XMLTag/subtitle_izq" XMLContent="u4699" />
+					<XMLElement Self="di2i200" MarkupTag="XMLTag/day_izq" XMLContent="u46b0" />
+					<XMLElement Self="di2i201" MarkupTag="XMLTag/contenido_izq" XMLContent="u46c7" />
+					<XMLElement Self="di2i202" MarkupTag="XMLTag/cita_izq" XMLContent="u46df" />
+					<XMLElement Self="di2i203" MarkupTag="XMLTag/subtitle_izq" XMLContent="u4795" />
+					<XMLElement Self="di2i204" MarkupTag="XMLTag/day_izq" XMLContent="u47ac" />
+					<XMLElement Self="di2i205" MarkupTag="XMLTag/contenido_izq" XMLContent="u47c3" />
+					<XMLElement Self="di2i206" MarkupTag="XMLTag/cita_izq" XMLContent="u47da" />
+					<XMLElement Self="di2i207" MarkupTag="XMLTag/contenido_dch" XMLContent="u47f1" />
+					<XMLElement Self="di2i208" MarkupTag="XMLTag/subtitle_dch" XMLContent="u4808" />
+					<XMLElement Self="di2i209" MarkupTag="XMLTag/day_dch" XMLContent="u481f" />
+					<XMLElement Self="di2i20a" MarkupTag="XMLTag/cita_dch" XMLContent="u4836" />
+					<XMLElement Self="di2i20b" MarkupTag="XMLTag/contenido_dch" XMLContent="u4868" />
+					<XMLElement Self="di2i20c" MarkupTag="XMLTag/subtitle_dch" XMLContent="u487f" />
+					<XMLElement Self="di2i20d" MarkupTag="XMLTag/day_dch" XMLContent="u4896" />
+					<XMLElement Self="di2i20e" MarkupTag="XMLTag/cita_dch" XMLContent="u48ad" />
+					<XMLElement Self="di2i20f" MarkupTag="XMLTag/subtitle_izq" XMLContent="u48c4" />
+					<XMLElement Self="di2i210" MarkupTag="XMLTag/day_izq" XMLContent="u48db" />
+					<XMLElement Self="di2i211" MarkupTag="XMLTag/contenido_izq" XMLContent="u48f3" />
+					<XMLElement Self="di2i212" MarkupTag="XMLTag/cita_izq" XMLContent="u490a" />
+					<XMLElement Self="di2i213" MarkupTag="XMLTag/contenido_dch" XMLContent="u4936" />
+					<XMLElement Self="di2i214" MarkupTag="XMLTag/subtitle_dch" XMLContent="u494d" />
+					<XMLElement Self="di2i215" MarkupTag="XMLTag/day_dch" XMLContent="u4965" />
+					<XMLElement Self="di2i216" MarkupTag="XMLTag/cita_dch" XMLContent="u497c" />
+					<XMLElement Self="di2i217" MarkupTag="XMLTag/subtitle_izq" XMLContent="u4993" />
+					<XMLElement Self="di2i218" MarkupTag="XMLTag/day_izq" XMLContent="u49aa" />
+					<XMLElement Self="di2i219" MarkupTag="XMLTag/contenido_izq" XMLContent="u49c1" />
+					<XMLElement Self="di2i21a" MarkupTag="XMLTag/cita_izq" XMLContent="u49d8" />
+					<XMLElement Self="di2i21b" MarkupTag="XMLTag/contenido_dch" XMLContent="u4a04" />
+					<XMLElement Self="di2i21c" MarkupTag="XMLTag/subtitle_dch" XMLContent="u4a1c" />
+					<XMLElement Self="di2i21d" MarkupTag="XMLTag/day_dch" XMLContent="u4a34" />
+					<XMLElement Self="di2i21e" MarkupTag="XMLTag/cita_dch" XMLContent="u4a4b" />
+					<XMLElement Self="di2i21f" MarkupTag="XMLTag/subtitle_izq" XMLContent="u4a62" />
+					<XMLElement Self="di2i220" MarkupTag="XMLTag/day_izq" XMLContent="u4a79" />
+					<XMLElement Self="di2i221" MarkupTag="XMLTag/contenido_izq" XMLContent="u4a90" />
+					<XMLElement Self="di2i222" MarkupTag="XMLTag/cita_izq" XMLContent="u4aa7" />
+					<XMLElement Self="di2i223" MarkupTag="XMLTag/contenido_dch" XMLContent="u4ad3" />
+					<XMLElement Self="di2i224" MarkupTag="XMLTag/subtitle_dch" XMLContent="u4aea" />
+					<XMLElement Self="di2i225" MarkupTag="XMLTag/day_dch" XMLContent="u4b01" />
+					<XMLElement Self="di2i226" MarkupTag="XMLTag/cita_dch" XMLContent="u4b18" />
+					<XMLElement Self="di2i227" MarkupTag="XMLTag/subtitle_izq" XMLContent="u4b2f" />
+					<XMLElement Self="di2i228" MarkupTag="XMLTag/day_izq" XMLContent="u4b47" />
+					<XMLElement Self="di2i229" MarkupTag="XMLTag/contenido_izq" XMLContent="u4b5e" />
+					<XMLElement Self="di2i22a" MarkupTag="XMLTag/cita_izq" XMLContent="u4b75" />
+					<XMLElement Self="di2i22b" MarkupTag="XMLTag/subtitle_izq" XMLContent="u4c21" />
+					<XMLElement Self="di2i22c" MarkupTag="XMLTag/day_izq" XMLContent="u4c38" />
+					<XMLElement Self="di2i22d" MarkupTag="XMLTag/contenido_izq" XMLContent="u4c4f" />
+					<XMLElement Self="di2i22e" MarkupTag="XMLTag/cita_izq" XMLContent="u4c66" />
+					<XMLElement Self="di2i22f" MarkupTag="XMLTag/contenido_dch" XMLContent="u4c7d" />
+					<XMLElement Self="di2i230" MarkupTag="XMLTag/subtitle_dch" XMLContent="u4c95" />
+					<XMLElement Self="di2i231" MarkupTag="XMLTag/day_dch" XMLContent="u4cac" />
+					<XMLElement Self="di2i232" MarkupTag="XMLTag/cita_dch" XMLContent="u4cc3" />
+					<XMLElement Self="di2i233" MarkupTag="XMLTag/contenido_dch" XMLContent="u4cf5" />
+					<XMLElement Self="di2i234" MarkupTag="XMLTag/subtitle_dch" XMLContent="u4d0c" />
+					<XMLElement Self="di2i235" MarkupTag="XMLTag/day_dch" XMLContent="u4d24" />
+					<XMLElement Self="di2i236" MarkupTag="XMLTag/cita_dch" XMLContent="u4d3b" />
+					<XMLElement Self="di2i237" MarkupTag="XMLTag/subtitle_izq" XMLContent="u4d52" />
+					<XMLElement Self="di2i238" MarkupTag="XMLTag/day_izq" XMLContent="u4d69" />
+					<XMLElement Self="di2i239" MarkupTag="XMLTag/contenido_izq" XMLContent="u4d80" />
+					<XMLElement Self="di2i23a" MarkupTag="XMLTag/cita_izq" XMLContent="u4d99" />
+					<XMLElement Self="di2i23b" MarkupTag="XMLTag/contenido_dch" XMLContent="u4dc5" />
+					<XMLElement Self="di2i23c" MarkupTag="XMLTag/subtitle_dch" XMLContent="u4ddc" />
+					<XMLElement Self="di2i23d" MarkupTag="XMLTag/day_dch" XMLContent="u4df3" />
+					<XMLElement Self="di2i23e" MarkupTag="XMLTag/cita_dch" XMLContent="u4e0a" />
+					<XMLElement Self="di2i23f" MarkupTag="XMLTag/subtitle_izq" XMLContent="u4e21" />
+					<XMLElement Self="di2i240" MarkupTag="XMLTag/day_izq" XMLContent="u4e38" />
+					<XMLElement Self="di2i241" MarkupTag="XMLTag/contenido_izq" XMLContent="u4e4f" />
+					<XMLElement Self="di2i242" MarkupTag="XMLTag/cita_izq" XMLContent="u4e66" />
+					<XMLElement Self="di2i243" MarkupTag="XMLTag/contenido_dch" XMLContent="u4e92" />
+					<XMLElement Self="di2i244" MarkupTag="XMLTag/subtitle_dch" XMLContent="u4ea9" />
+					<XMLElement Self="di2i245" MarkupTag="XMLTag/day_dch" XMLContent="u4ec0" />
+					<XMLElement Self="di2i246" MarkupTag="XMLTag/cita_dch" XMLContent="u4ed7" />
+					<XMLElement Self="di2i247" MarkupTag="XMLTag/subtitle_izq" XMLContent="u4eee" />
+					<XMLElement Self="di2i248" MarkupTag="XMLTag/day_izq" XMLContent="u4f05" />
+					<XMLElement Self="di2i249" MarkupTag="XMLTag/contenido_izq" XMLContent="u4f1c" />
+					<XMLElement Self="di2i24a" MarkupTag="XMLTag/cita_izq" XMLContent="u4f33" />
+					<XMLElement Self="di2i24b" MarkupTag="XMLTag/contenido_dch" XMLContent="u4f5f" />
+					<XMLElement Self="di2i24c" MarkupTag="XMLTag/subtitle_dch" XMLContent="u4f76" />
+					<XMLElement Self="di2i24d" MarkupTag="XMLTag/day_dch" XMLContent="u4f8e" />
+					<XMLElement Self="di2i24e" MarkupTag="XMLTag/cita_dch" XMLContent="u4fa5" />
+					<XMLElement Self="di2i24f" MarkupTag="XMLTag/subtitle_izq" XMLContent="u4fbc" />
+					<XMLElement Self="di2i250" MarkupTag="XMLTag/day_izq" XMLContent="u4fd3" />
+					<XMLElement Self="di2i251" MarkupTag="XMLTag/contenido_izq" XMLContent="u4fea" />
+					<XMLElement Self="di2i252" MarkupTag="XMLTag/cita_izq" XMLContent="u5001" />
+					<XMLElement Self="di2i253" MarkupTag="XMLTag/subtitle_izq" XMLContent="u50b5" />
+					<XMLElement Self="di2i254" MarkupTag="XMLTag/day_izq" XMLContent="u50cc" />
+					<XMLElement Self="di2i255" MarkupTag="XMLTag/contenido_izq" XMLContent="u50e3" />
+					<XMLElement Self="di2i256" MarkupTag="XMLTag/cita_izq" XMLContent="u50fa" />
+					<XMLElement Self="di2i257" MarkupTag="XMLTag/contenido_dch" XMLContent="u5111" />
+					<XMLElement Self="di2i258" MarkupTag="XMLTag/subtitle_dch" XMLContent="u5129" />
+					<XMLElement Self="di2i259" MarkupTag="XMLTag/day_dch" XMLContent="u5140" />
+					<XMLElement Self="di2i25a" MarkupTag="XMLTag/cita_dch" XMLContent="u5157" />
+					<XMLElement Self="di2i25b" MarkupTag="XMLTag/contenido_dch" XMLContent="u5189" />
+					<XMLElement Self="di2i25c" MarkupTag="XMLTag/subtitle_dch" XMLContent="u51a0" />
+					<XMLElement Self="di2i25d" MarkupTag="XMLTag/day_dch" XMLContent="u51b7" />
+					<XMLElement Self="di2i25e" MarkupTag="XMLTag/cita_dch" XMLContent="u51ce" />
+					<XMLElement Self="di2i25f" MarkupTag="XMLTag/subtitle_izq" XMLContent="u51e5" />
+					<XMLElement Self="di2i260" MarkupTag="XMLTag/day_izq" XMLContent="u51fc" />
+					<XMLElement Self="di2i261" MarkupTag="XMLTag/contenido_izq" XMLContent="u5213" />
+					<XMLElement Self="di2i262" MarkupTag="XMLTag/cita_izq" XMLContent="u522a" />
+					<XMLElement Self="di2i263" MarkupTag="XMLTag/contenido_dch" XMLContent="u5256" />
+					<XMLElement Self="di2i264" MarkupTag="XMLTag/subtitle_dch" XMLContent="u526d" />
+					<XMLElement Self="di2i265" MarkupTag="XMLTag/day_dch" XMLContent="u5285" />
+					<XMLElement Self="di2i266" MarkupTag="XMLTag/cita_dch" XMLContent="u529d" />
+					<XMLElement Self="di2i267" MarkupTag="XMLTag/subtitle_izq" XMLContent="u52b4" />
+					<XMLElement Self="di2i268" MarkupTag="XMLTag/day_izq" XMLContent="u52cc" />
+					<XMLElement Self="di2i269" MarkupTag="XMLTag/contenido_izq" XMLContent="u52e3" />
+					<XMLElement Self="di2i26a" MarkupTag="XMLTag/cita_izq" XMLContent="u52fa" />
+					<XMLElement Self="di2i26b" MarkupTag="XMLTag/contenido_dch" XMLContent="u5326" />
+					<XMLElement Self="di2i26c" MarkupTag="XMLTag/subtitle_dch" XMLContent="u533d" />
+					<XMLElement Self="di2i26d" MarkupTag="XMLTag/day_dch" XMLContent="u5354" />
+					<XMLElement Self="di2i26e" MarkupTag="XMLTag/cita_dch" XMLContent="u536b" />
+					<XMLElement Self="di2i26f" MarkupTag="XMLTag/subtitle_izq" XMLContent="u5382" />
+					<XMLElement Self="di2i270" MarkupTag="XMLTag/day_izq" XMLContent="u5399" />
+					<XMLElement Self="di2i271" MarkupTag="XMLTag/contenido_izq" XMLContent="u53b0" />
+					<XMLElement Self="di2i272" MarkupTag="XMLTag/cita_izq" XMLContent="u53c7" />
+					<XMLElement Self="di2i273" MarkupTag="XMLTag/contenido_dch" XMLContent="u53f3" />
+					<XMLElement Self="di2i274" MarkupTag="XMLTag/subtitle_dch" XMLContent="u540a" />
+					<XMLElement Self="di2i275" MarkupTag="XMLTag/day_dch" XMLContent="u5422" />
+					<XMLElement Self="di2i276" MarkupTag="XMLTag/cita_dch" XMLContent="u543a" />
+					<XMLElement Self="di2i277" MarkupTag="XMLTag/subtitle_izq" XMLContent="u5451" />
+					<XMLElement Self="di2i278" MarkupTag="XMLTag/day_izq" XMLContent="u5469" />
+					<XMLElement Self="di2i279" MarkupTag="XMLTag/contenido_izq" XMLContent="u5480" />
+					<XMLElement Self="di2i27a" MarkupTag="XMLTag/cita_izq" XMLContent="u5497" />
+				</CharacterStyleRange>
+			</XMLElement>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content>﻿</Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</XmlStory>
+</idPkg:BackingStory>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Tags xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="10.1">
+	<XMLTag Self="XMLTag/cita_dch" Name="cita_dch">
+		<Properties>
+			<TagColor type="enumeration">Gray</TagColor>
+		</Properties>
+	</XMLTag>
+	<XMLTag Self="XMLTag/cita_izq" Name="cita_izq">
+		<Properties>
+			<TagColor type="enumeration">Blue</TagColor>
+		</Properties>
+	</XMLTag>
+	<XMLTag Self="XMLTag/contenido_dch" Name="contenido_dch">
+		<Properties>
+			<TagColor type="enumeration">Black</TagColor>
+		</Properties>
+	</XMLTag>
+	<XMLTag Self="XMLTag/contenido_izq" Name="contenido_izq">
+		<Properties>
+			<TagColor type="enumeration">Yellow</TagColor>
+		</Properties>
+	</XMLTag>
+	<XMLTag Self="XMLTag/day_dch" Name="day_dch">
+		<Properties>
+			<TagColor type="enumeration">Cyan</TagColor>
+		</Properties>
+	</XMLTag>
+	<XMLTag Self="XMLTag/day_izq" Name="day_izq">
+		<Properties>
+			<TagColor type="enumeration">Green</TagColor>
+		</Properties>
+	</XMLTag>
+	<XMLTag Self="XMLTag/Root" Name="Root">
+		<Properties>
+			<TagColor type="enumeration">LightBlue</TagColor>
+		</Properties>
+	</XMLTag>
+	<XMLTag Self="XMLTag/subtitle_dch" Name="subtitle_dch">
+		<Properties>
+			<TagColor type="enumeration">Magenta</TagColor>
+		</Properties>
+	</XMLTag>
+	<XMLTag Self="XMLTag/subtitle_izq" Name="subtitle_izq">
+		<Properties>
+			<TagColor type="enumeration">Red</TagColor>
+		</Properties>
+	</XMLTag>
+</idPkg:Tags>

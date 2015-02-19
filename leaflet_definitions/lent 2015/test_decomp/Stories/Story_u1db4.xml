@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="10.1">
+	<Story Self="u1db4" AppliedTOCStyle="n" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/normal" FirstLineIndent="14.173228346456694" SpaceAfter="0">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita" FontStyle="Bold Italic">
+				<Content>Morning offering:</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+				<Br />
+				<Content>O Jesus, through the most pure heart of  Mary, I offer you all the prayers, works, sufferings and joys of this day, for the intentions of your Divine Heart. Amen. </Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita" FontStyle="Bold Italic">
+				<Br />
+				<Content>Memorare:</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+				<Br />
+				<Content>Remember, O most loving Virgin Mary, that it is a thing unheard of, that anyone ever had recourse to your protection, implored your help, or sought your intercession and was left forsaken. Filled therefore with confidence in your goodness I fly to you, O Mother, Virgin of Virgins. To you I come, before you I stand, a sorrowful sinner. Despise not my words, O Mother of the Word, but graciously hear and grant my prayer. Amen.</Content>
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita" FontStyle="Bold Italic">
+				<Content>Blessing before meals:</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+				<Br />
+				<Content>Bless us, O Lord, and these Thy gifts which we are about to receive from Thy bounty, through Christ our Lord, Amen.</Content>
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita" FontStyle="Bold Italic">
+				<Content>Grace after meals: </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+				<Br />
+				<Content>We give you thanks, Almighty God, for all Your benefits, who live and reign, world without end. Amen. </Content>
+				<Br />
+				<Content>May the souls of the faithful departed, through the mercy of God, rest in peace. Amen.</Content>
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita" FontStyle="Bold Italic">
+				<Content>Act of contrition:</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+				<Br />
+				<Content>Oh My God, because you are so good, I am very sorry that I have sinned against you, and by the help of your grace, I will try not sin again. Amen.</Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>

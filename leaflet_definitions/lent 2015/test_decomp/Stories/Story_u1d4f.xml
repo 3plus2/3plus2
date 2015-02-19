@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="10.1">
+	<Story Self="u1d4f" AppliedTOCStyle="n" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/normal" FirstLineIndent="14.173228346456694" SpaceAfter="0">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita" FontStyle="Bold Italic">
+				<Content>Visit to the Blessed Sacrament:</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita" FontStyle="Bold Italic">
+				<Content>V/</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+				<Content> O Sacrament most holy! O Sacrament divine! R/ All praise and all thanksgiving, be every moment Thine! </Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/normal" FirstLineIndent="0" SpaceAfter="0" Justification="CenterJustified">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+				<Content>Our Father, Hail Mary, Glory be... </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita" FillColor="Color/Negro - Copia">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/normal" LeftIndent="19.84251968503937" RightIndent="28.34645669291339" FirstLineIndent="0" SpaceBefore="5.669291338582678" SpaceAfter="5.669291338582678" Justification="CenterAlign">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita" FillColor="Color/Negro - Copia">
+				<Content>[After repeating this three times, we repeat the aspiration and say the Spiritual Communion]: </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/normal" FirstLineIndent="14.173228346456694" SpaceAfter="0">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+				<Content>I wish, Lord, to receive You, with the purity, humility and devotion with which Your most holy Mother received You; with the spirit and fervour of the saints.</Content>
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita" FontStyle="Bold Italic">
+				<Content>   Angelus:</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita" FontStyle="Bold Italic">
+				<Content>V/ </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+				<Content>The Angel of the Lord declared unto Mary, R/ And she conceived of the Holy Spirit.</Content>
+				<Br />
+				<Content>Hail Mary.</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita" FontStyle="Bold Italic">
+				<Content>V/ </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+				<Content>Behold the handmaid of the Lord, R/ Be it done unto me according to your word.</Content>
+				<Br />
+				<Content>Hail Mary.</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita" FontStyle="Bold Italic">
+				<Content>V/ </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+				<Content>And the Word was made flesh, R/ And dwelt among us.</Content>
+				<Br />
+				<Content>Hail Mary.</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita" FontStyle="Bold Italic">
+				<Content>V/ </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/contenido_cita">
+				<Content>Pray for us, O holy Mother of God, R/ That we may be made worthy of the promises of Christ.</Content>
+				<Br />
+				<Content>Let us pray. Pour forth, we beseech You, O Lord, Your grace into our hearts: that we, to whom the Incarnation of Christ Your Son was made known by the message of an Angel, may by His Passion and Cross be brought to the glory of His Resurrection. Through the same Christ our Lord. Amen.</Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+	</Story>
+</idPkg:Story>
