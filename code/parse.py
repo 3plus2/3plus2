@@ -2,34 +2,9 @@
 # -*- coding: utf-8 -*-
 import os, sys
 import codecs
-import collections
 import glob
 import json
 import re
-
-class Stack(object):
-
-    def __init__(self):
-        self._stack = list()
-
-    def __bool__(self):
-        return bool(self._stack)
-
-    def __str__(self):
-        return "%s: %s" % (self.__class__.__name__, self._stack)
-
-    def __repr__(self):
-        return "%s: %r" % (self.__class__.__name__, self._stack)
-
-    def push(self, value):
-        self._stack.append(value)
-
-    def pop(self):
-        return self._stack.pop()
-
-    def peek(self):
-        return self._stack[-1]
-
 
 def parse_text(text):
     """Scan the input file one line at a time, looking for a keyword
@@ -86,8 +61,8 @@ def process_title(texts):
 def process_gospel(texts):
     """Take a gospel quote prefixed by a chapter-and-verse reference
     """
-    text = " ".join(texts)
-    citation, gospel = re.match(r"((?:Mt|Mk|Lk|Jn)\s+[0-9:.\-–, ]+)\s+(.*)", text, flags=re.UNICODE).groups()
+    text = "%s\n%s" % (texts[0], " ".join(texts[1:]))
+    citation, gospel = re.match(r"([^\n]+)\n(.*)", text, flags=re.UNICODE).groups()
     yield "CITATION", citation
     yield "GOSPEL", gospel
 
@@ -101,11 +76,9 @@ def process_paragraph(paragraph):
     style is normal, and an underscore introduces an italic style
     and an asterisk introduces a bold style.
     """
-    q = collections.deque(paragraph)
     state = "normal"
     text = ""
-    while q:
-        c = q.popleft()
+    for c in paragraph:
         for marker, style in style_markers.items():
             if c == marker:
                 if text:
@@ -161,7 +134,6 @@ def process_one_folder(dirpath):
         filename = os.path.basename(filepath)
         name, ext = os.path.splitext(filename)
         text[name] = dict(process_one_file(filepath))
-        break
     return text
 
 def process_one_thing(path):
@@ -173,5 +145,6 @@ def process_one_thing(path):
 if __name__ == '__main__':
     import pprint
     with codecs.open("parse.txt", "wb", encoding="utf-8") as f:
+        f.write("# -*- coding: utf-8 -*-\n")
         pprint.pprint(process_one_thing(*sys.argv[1:]), f)
         #~ json.dump(process_one_folder(*sys.argv[1:]), f)
