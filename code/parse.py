@@ -63,7 +63,10 @@ def process_title(texts):
     yield "SUBTITLE", subtitle
 
 def process_gospel(texts):
-    """Take a gospel quote prefixed by a chapter-and-verse reference
+    """Take a gospel quote prefixed by a chapter-and-verse reference.
+    NB The chapter-and-verse must be on the same line as the "GOSPEL:"
+    tag but the quote must be on a new line -- this makes it easier
+    (read: possible) to parse the messy citations you can get.
     """
     text = "%s\n%s" % (texts[0], " ".join(texts[1:]))
     citation, gospel = re.match(r"([^\n]+)\n(.*)", text, flags=re.UNICODE).groups()
@@ -142,7 +145,7 @@ def process_one_folder(dirpath, include_subfolders=True):
     else:
         filepaths = glob.glob(os.path.join(dirpath, "*.txt"))
         
-    for filepath in filepaths:
+    for filepath in sorted(filepaths):
         print(filepath)
         filename = os.path.basename(filepath)
         name, ext = os.path.splitext(filename)
