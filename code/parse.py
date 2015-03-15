@@ -1,10 +1,14 @@
 #!python3
 # -*- coding: utf-8 -*-
+from __future__ import print_function
 import os, sys
 import codecs
 import glob
 import json
 import re
+
+INPUT_ENCODING = "utf-8-sig"
+OUTPUT_ENCODING = "utf-8"
 
 def parse_text(text):
     """Scan the input file one line at a time, looking for a keyword
@@ -122,14 +126,23 @@ PROCESSORS = {
 
 def process_one_file(filepath):
     items = {}
-    with codecs.open(filepath, encoding="utf-8") as f:
+    with codecs.open(filepath, encoding=INPUT_ENCODING) as f:
         for keyword, paragraphs in parse_text(f.read()):
             items.update(PROCESSORS[keyword](paragraphs))
     return items
 
-def process_one_folder(dirpath):
+def process_one_folder(dirpath, include_subfolders=True):
     text = {}
-    for filepath in glob.glob(os.path.join(dirpath, "*.txt")):
+    if include_subfolders:
+        filepaths = []
+        for path, dirnames, filenames in os.walk(dirpath):
+            for filename in filenames:
+                if filename.endswith("*.txt"):
+                    filepaths.append(os.path.join(path, filename))
+    else:
+        filepaths = glob.glob(os.path.join(dirpath, "*.txt"))
+        
+    for filepath in filepaths:
         print(filepath)
         filename = os.path.basename(filepath)
         name, ext = os.path.splitext(filename)
@@ -140,11 +153,12 @@ def process_one_thing(path):
     if os.path.isdir(path):
         return process_one_folder(path)
     else:
+        print(path)
         return process_one_file(path)
 
 if __name__ == '__main__':
     import pprint
-    with codecs.open("parse.txt", "wb", encoding="utf-8") as f:
+    with codecs.open("parse.txt", "wb", encoding=INPUT_ENCODING) as f:
         f.write("# -*- coding: utf-8 -*-\n")
         pprint.pprint(process_one_thing(*sys.argv[1:]), f)
         #~ json.dump(process_one_folder(*sys.argv[1:]), f)
