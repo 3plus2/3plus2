@@ -3,14 +3,27 @@ from os.path import isfile, join
 import parse as p
 
 # harcode leaflet definition, would be a file
-TEXT_GENERAL_DIR = "/Users/chus/Dropbox/3plus2/3plus2_text/Lent"
-TEXT_SUBDIRS = ["/Lent February/", "/Lent March/", "/Lent April/"]
+# LENT
+#TEXT_GENERAL_DIR = "/Users/chus/Dropbox/3plus2/3plus2_text/Lent"
+#TEXT_SUBDIRS = ["/Lent February/", "/Lent March/", "/Lent April/"]
 
-TEXTS_NUM = 46
-TEXT_SUBDIRS_COUNT = [11,31,4]
+#TEXTS_NUM = 46
+#TEXT_SUBDIRS_COUNT = [11,31,4]
 
-IDMLFOLDER_FOLDER = "/Volumes/Datos002/WESTPARK/iPray/003_lent/lent_leaflet_orig/"
-NEWIDMLFOLDER_FOLDER = "/Volumes/Datos002/WESTPARK/iPray/003_lent/lent_leaflet_dest/"
+#IDMLFOLDER_FOLDER = "/Volumes/Datos002/WESTPARK/iPray/003_lent/lent_leaflet_orig/"
+#NEWIDMLFOLDER_FOLDER = "/Volumes/Datos002/WESTPARK/iPray/003_lent/lent_leaflet_dest/"
+
+#EASTER
+TEXT_GENERAL_DIR = "/Users/chus/Dropbox/3plus2/3plus2_text/Easter"
+TEXT_SUBDIRS = ["/Easter April/", "/Easter May/"]
+
+TEXTS_NUM = 52
+TEXT_SUBDIRS_COUNT = [27,25]
+
+IDMLFOLDER_FOLDER = "/Volumes/Datos002/WESTPARK/iPray/easter/deployment/orig/"
+NEWIDMLFOLDER_FOLDER = "/Volumes/Datos002/WESTPARK/iPray/easter/deployment/dest/"
+
+
 STORIES_FOLDER = "Stories"
 NEW_STORIES_FOLDER = "newStories"
 
