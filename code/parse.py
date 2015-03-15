@@ -85,12 +85,12 @@ def process_paragraph(paragraph):
         elif c == "*":
             if text:
                 yield state, text
-            state = "normal" if state == "bold" else "bold"
+            state = "normal" if state == "back" else "black"
             text = ""
         elif c == "@":
             if text:
                 yield state, text
-            state = "normal" if state == "bold-italic" else "bold-italic"
+            state = "normal" if state == "italic_black" else "italic_black"
             text = ""
         else:
             text += c

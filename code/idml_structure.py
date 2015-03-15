@@ -9,8 +9,8 @@ TEXT_SUBDIRS = ["/Lent February/", "/Lent March/", "/Lent April/"]
 TEXTS_NUM = 46
 TEXT_SUBDIRS_COUNT = [11,31,4]
 
-IDMLFOLDER_FOLDER = "/Volumes/Datos002/WESTPARK/3+2/leaflets_design/idml_decomposition/masPruebas/"
-NEWIDMLFOLDER_FOLDER = "/Volumes/Datos002/WESTPARK/3+2/leaflets_design/idml_decomposition/lent_leaflet/"
+IDMLFOLDER_FOLDER = "/Volumes/Datos002/WESTPARK/iPray/003_lent/lent_leaflet_orig/"
+NEWIDMLFOLDER_FOLDER = "/Volumes/Datos002/WESTPARK/iPray/003_lent/lent_leaflet_dest/"
 STORIES_FOLDER = "Stories"
 NEW_STORIES_FOLDER = "newStories"
 
@@ -65,7 +65,10 @@ def setMainContent(inCitFileName, outCitFileName, gospelText, commentsText):
 		elementParrafo = commentsText[parr]
 		for block in range(len(elementParrafo)) :
 			elementBlock = elementParrafo[block]
-			textParrafo = textParrafo + characterStyleBlock(elementBlock[0], elementBlock[1])
+			if block == len(elementParrafo)-1 and parr != len(commentsText)-1: 
+				textParrafo = textParrafo + characterStyleBlock(elementBlock[0], elementBlock[1], True)
+			else:
+				textParrafo = textParrafo + characterStyleBlock(elementBlock[0], elementBlock[1])
 
 		content = content + paragraphStyleBlock("normal",textParrafo)
 
@@ -81,8 +84,8 @@ def characterStyleBlock(style, content, withspace = False):
 	ini = """\t\t\t\t<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/{0}">
 			 \t\t<Content>""".format(style)
 	fin = """</Content>\n"""
-	if withspace : fin = fin + "<br/>"
-	fin = fin + "\t</CharacterStyleRange>\n"
+	if withspace : fin = fin + "\t\t\t\t<Br />\n"
+	fin = fin + "\t\t\t\t</CharacterStyleRange>\n"
 	return ini+content+fin
 
 def paragraphStyleBlock(style, content):
@@ -161,31 +164,30 @@ for text in textContents :
 	saints[textId] = items['SAINT']
 	textId = textId+1
 
-
 maxPage = int(maxPage)
 pageId = 0
 for i in range(len(comments)) :
-	if i >= minPage :
-		#citation
-		inCitFileName = mypath+tabla[i]['C']
-		outCitFileName = outPath+tabla[i]['C']
-		setContent(inCitFileName, outCitFileName, citation[pageId])
-		
-		#day
-		inCitFileName = mypath+tabla[i]['D']
-		outCitFileName = outPath+tabla[i]['D']
-		setContent(inCitFileName, outCitFileName, days[pageId])
+	tablaId = i + minPage
+	#citation
+	inCitFileName = mypath+tabla[tablaId]['C']
+	outCitFileName = outPath+tabla[tablaId]['C']
+	setContent(inCitFileName, outCitFileName, citation[pageId])
+	
+	#day
+	inCitFileName = mypath+tabla[tablaId]['D']
+	outCitFileName = outPath+tabla[tablaId]['D']
+	setContent(inCitFileName, outCitFileName, days[pageId])
 
-		#saint
-		inCitFileName = mypath+tabla[i]['S']
-		outCitFileName = outPath+tabla[i]['S']
-		setContent(inCitFileName, outCitFileName, saints[pageId])
+	#saint
+	inCitFileName = mypath+tabla[tablaId]['S']
+	outCitFileName = outPath+tabla[tablaId]['S']
+	setContent(inCitFileName, outCitFileName, saints[pageId])
 
-		#gospel+comments
-		inCitFileName = mypath+tabla[i]['T']
-		outCitFileName = outPath+tabla[i]['T']
-		setMainContent(inCitFileName, outCitFileName, gospel[pageId], comments[pageId])
-		pageId = pageId+1
+	#gospel+comments
+	inCitFileName = mypath+tabla[tablaId]['T']
+	outCitFileName = outPath+tabla[tablaId]['T']
+	setMainContent(inCitFileName, outCitFileName, gospel[pageId], comments[pageId])
+	pageId = pageId+1
 
 print "Builded " + str(pageId) +" pages!"
 
