@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 import os, sys
 import codecs
-import collections
 import glob
 import json
 import re
@@ -62,38 +61,34 @@ def process_title(texts):
 def process_gospel(texts):
     """Take a gospel quote prefixed by a chapter-and-verse reference
     """
-    text = " ".join(texts)
-    citation, gospel = re.match(r"((?:Mt|Mk|Lk|Jn)\s+[0-9:.\-–, ]+)\s+(.*)", text, flags=re.UNICODE).groups()
+    text = "%s\n%s" % (texts[0], " ".join(texts[1:]))
+    citation, gospel = re.match(r"([^\n]+)\n(.*)", text, flags=re.UNICODE).groups()
     yield "CITATION", citation
     yield "GOSPEL", gospel
 
+style_markers = {
+    "_" : "italic",
+    "*" : "bold",
+    "@" : "bold-italic"
+}
 def process_paragraph(paragraph):
-    """Return a list of tuples (style, text) where the default
+    """Generate tuples of (style, text) where the default
     style is normal, and an underscore introduces an italic style
     and an asterisk introduces a bold style.
     """
-    q = collections.deque(paragraph)
     state = "normal"
     text = ""
-    while q:
-        c = q.popleft()
-        if c == "_":
-            if text:
-                yield state, text
-            state = "normal" if state == "italic" else "italic"
-            text = ""
-        elif c == "*":
-            if text:
-                yield state, text
-            state = "normal" if state == "back" else "black"
-            text = ""
-        elif c == "@":
-            if text:
-                yield state, text
-            state = "normal" if state == "italic_black" else "italic_black"
-            text = ""
+    for c in paragraph:
+        for marker, style in style_markers.items():
+            if c == marker:
+                if text:
+                    yield state, text
+                    text = ""
+                state = "normal" if state == style else style
+                break
         else:
             text += c
+
     if text:
         yield state, text
 
@@ -127,7 +122,7 @@ PROCESSORS = {
 
 def process_one_file(filepath):
     items = {}
-    with open(filepath, encoding="utf-8") as f:
+    with codecs.open(filepath, encoding="utf-8") as f:
         for keyword, paragraphs in parse_text(f.read()):
             items.update(PROCESSORS[keyword](paragraphs))
     return items
@@ -139,11 +134,17 @@ def process_one_folder(dirpath):
         filename = os.path.basename(filepath)
         name, ext = os.path.splitext(filename)
         text[name] = dict(process_one_file(filepath))
-        break
     return text
+
+def process_one_thing(path):
+    if os.path.isdir(path):
+        return process_one_folder(path)
+    else:
+        return process_one_file(path)
 
 if __name__ == '__main__':
     import pprint
     with codecs.open("parse.txt", "wb", encoding="utf-8") as f:
-        pprint.pprint(process_one_folder(*sys.argv[1:]), f)
+        f.write("# -*- coding: utf-8 -*-\n")
+        pprint.pprint(process_one_thing(*sys.argv[1:]), f)
         #~ json.dump(process_one_folder(*sys.argv[1:]), f)
