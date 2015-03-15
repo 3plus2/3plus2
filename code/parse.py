@@ -135,10 +135,10 @@ def process_one_folder(dirpath, include_subfolders=True):
     text = {}
     if include_subfolders:
         filepaths = []
-        for path, dirnames, filenames in os.walk(dirpath):
+        for dirname, dirnames, filenames in os.walk(dirpath):
             for filename in filenames:
-                if filename.endswith("*.txt"):
-                    filepaths.append(os.path.join(path, filename))
+                if filename.endswith(".txt"):
+                    filepaths.append(os.path.join(dirname, filename))
     else:
         filepaths = glob.glob(os.path.join(dirpath, "*.txt"))
         
