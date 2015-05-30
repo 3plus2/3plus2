@@ -76,7 +76,7 @@ def process_gospel(texts):
 style_markers = {
     "_" : "italic",
     "*" : "bold",
-    "@" : "bold-italic"
+    "@" : "boldItalic"
 }
 def process_paragraph(paragraph):
     """Generate tuples of (style, text) where the default
